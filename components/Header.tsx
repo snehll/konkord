@@ -13,19 +13,19 @@ export default function Header() {
     <motion.header
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="sticky top-0 z-50 border-b border-teal-900/50 bg-black/95 backdrop-blur">
+      className="sticky top-0 z-50 border-b border-red-900/50 bg-black/95 backdrop-blur">
       <div className="container mx-auto flex h-20 items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-3">
           <div className="relative w-11 h-11">
             <Image
               src="/logo.png"
-              alt="ANDAKOR"
+              alt="KONKORD"
               fill
               className="object-contain"
             />
           </div>
-          <span className="text-2xl font-bold text-teal-500 hidden sm:block tracking-wider">
-            ANDAKOR
+          <span className="text-2xl font-bold text-red-500 hidden sm:block tracking-wider">
+            KONKORD
           </span>
         </Link>
 
@@ -34,7 +34,7 @@ export default function Header() {
             <Link
               key={item}
               href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
-              className="text-gray-300 hover:text-teal-400 transition font-medium">
+              className="text-gray-300 hover:text-red-400 transition font-medium">
               {item}
             </Link>
           ))}
@@ -43,16 +43,16 @@ export default function Header() {
         <Sheet>
           <SheetTrigger asChild className="md:hidden">
             <Button variant="ghost" size="icon">
-              <Menu className="h-6 w-6 text-teal-400" />
+              <Menu className="h-6 w-6 text-red-400" />
             </Button>
           </SheetTrigger>
-          <SheetContent className="bg-black border-teal-900/50">
+          <SheetContent className="bg-black border-red-900/50">
             <nav className="flex flex-col gap-8 mt-10">
               {navItems.map((item) => (
                 <Link
                   key={item}
                   href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
-                  className="text-xl font-medium text-gray-300 hover:text-teal-400 transition">
+                  className="text-xl font-medium text-gray-300 hover:text-red-400 transition">
                   {item}
                 </Link>
               ))}

@@ -9,23 +9,24 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "ANDAKOR | UAE Industrial Trade",
-    template: "%s | ANDAKOR",
+    default: "KONKORD | UAE Industrial Trade",
+    template: "%s | KONKORD",
   },
   description:
-    "From the United Arab Emirates we support international trade across regions where speed, reliability and clear coordination are essential.",
+    "From the UAE we manage international trade and brokerage services across regions where speed, negotiation accuracy and reliable coordination define success.",
   openGraph: {
-    title: "ANDAKOR GROUP OÜ",
+    title: "KONKORD HOLDING OÜ",
     description:
-      "Positioned at a major global crossroads, our operations connect manufacturers and industrial buyers worldwide.",
-    url: "https://andakor.ee",
-    siteName: "ANDAKOR",
-    images: ["/og-andakor.jpg"],
-    emails: ["inbox@andakor.ee"],
+      "Positioned at the intersection of global markets, we support clients with supply routes and deal structures designed for long-term success.",
+    url: "https://konkordholding.ee",
+    siteName: "KONKORD",
+    images: ["/og-konkord.jpg"],
+    emails: ["order@konkordholding.ee"],
   },
 };
+
 export const viewport: Viewport = {
-  themeColor: "#0d9488", // Deep teal — no orange
+  themeColor: "#dc2626", // Deep crimson red
 };
 
 export default function RootLayout({

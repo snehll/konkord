@@ -8,7 +8,7 @@ export default function ProductsPage() {
   return (
     <>
       <section className="relative py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-linear-to-br from-teal-950 via-black to-teal-950" />
+        <div className="absolute inset-0 bg-linear-to-br from-red-900 via-black to-red-900" />
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative container mx-auto px-6 text-center z-10">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 drop-shadow-2xl">
@@ -34,7 +34,7 @@ export default function ProductsPage() {
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     />
                   ) : (
-                    <div className="h-full bg-linear-to-br from-teal-800 via-amber-800 to-teal-900" />
+                    <div className="h-full bg-linear-to-br from-red-800 via-red-900 to-red-950" />
                   )}
                   <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-10 text-white z-10">

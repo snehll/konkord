@@ -6,7 +6,7 @@ export default function UserAgreement() {
     <article className="py-24 bg-background">
       <div className="container mx-auto px-6 max-w-4xl">
         <h1 className="text-3xl font-bold mb-8 text-black">User Agreement</h1>
-        <p className="text-muted-foreground mb-8">
+        <p className="text-muted-foreground mb-8"> 
           Last updated on December 16, 2025
         </p>
 

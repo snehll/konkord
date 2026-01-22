@@ -25,7 +25,7 @@ export default function ContactPage() {
               <h2 className="text-4xl font-bold text-red-500 mb-8">
                 Get in Touch
               </h2>
-              <ContactForm />
+              <ContactForm companyName="konkord"/>
             </div>
             <div className="space-y-8">
               <div>

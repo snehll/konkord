@@ -4,8 +4,8 @@ export const metadata = { title: "Privacy Policy" };
 export default function PrivacyPolicy() {
   return (
     <article className="py-24 bg-background">
-      <div className="container mx-auto px-6 max-w-4xl">
-        <h1 className="text-5xl font-bold mb-8">Privacy Policy</h1>
+      <div className="container mx-auto px-6 max-w-4xl ">
+        <h1 className="text-5xl font-bold mb-8 text-black">Privacy Policy</h1>
         <p className="text-muted-foreground mb-8">
           Last updated on December 16, 2025
         </p>
@@ -17,13 +17,13 @@ export default function PrivacyPolicy() {
           </p>
           <p>
             This Privacy Policy (hereafter referred to as the “Privacy Policy”)
-            relates to the website <strong>___________</strong> (hereafter
-            referred to as the “website” or the “site”), the services provided
-            by <strong>KONKORD HOLDING OÜ</strong> (hereinafter referred to as
-            the "Company", the owner and operator of the Site), and any related
-            software applications (‘Apps’) where personal data relating to You
-            is processed by the same (via the Site, any of Our Apps or
-            otherwise).
+            relates to the website <strong>https://konkordholding.ee</strong>{" "}
+            (hereafter referred to as the “website” or the “site”), the services
+            provided by <strong>KONKORD HOLDING OÜ</strong> (hereinafter
+            referred to as the "Company", the owner and operator of the Site),
+            and any related software applications (‘Apps’) where personal data
+            relating to You is processed by the same (via the Site, any of Our
+            Apps or otherwise).
           </p>
           <p>
             <strong>KONKORD HOLDING OÜ</strong> is a company that buys and sells

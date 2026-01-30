@@ -14,7 +14,7 @@ export default function UserAgreement() {
           <h2>1. GENERAL CONDITIONS</h2>
           <p>
             1.1. This User Agreement (‘Agreement’) applies to the website
-            available at <strong>_________</strong> (hereinafter referred to as
+            available at <strong>https://konkordholding.ee</strong> (hereinafter referred to as
             the "Website").
           </p>
           <p>
@@ -53,7 +53,7 @@ export default function UserAgreement() {
             </li>
             <li>
               2.1.2. "User" means any person who has accepted the offer{" "}
-              <strong>_________</strong>.
+              <strong>https://konkordholding.ee</strong>.
             </li>
             <li>
               2.1.3. "Content" means the intellectual property of the Website

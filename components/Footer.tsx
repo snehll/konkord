@@ -10,9 +10,7 @@ export default function Footer() {
             <p className="text-gray-400 text-sm leading-relaxed">
               KONKORD HOLDING OÜ
               <br />
-              Harju maakond, Tallinn, Kesklinna linnaosa
-              <br />
-              Roosikrantsi tn 2, 10119
+              Harju maakond, Tallinn, Lasnamäe linnaosa, Valukoja tn 8/2, 11415
             </p>
           </div>
           <div>
@@ -62,7 +60,7 @@ export default function Footer() {
                 <Link
                   href="/terms-of-use"
                   className="text-gray-400 hover:text-red-400">
-                 User Agreement
+                  User Agreement
                 </Link>
               </li>
               <li>

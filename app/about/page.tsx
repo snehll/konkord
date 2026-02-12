@@ -26,10 +26,10 @@ export default function AboutPage() {
             About Us
           </h1>
           <p className="text-xl md:text-2xl text-white/90 max-w-4xl mx-auto font-light leading-relaxed drop-shadow-lg">
-            Our UAE-based team manages international trade deals, acting as a
-            bridge between producers and end buyers. We also provide brokerage
-            services, earning commission-based revenue from organized wholesale
-            and logistics transactions.
+            Based in Estonia, our team manages international trade deals, acting as a
+            bridge between producers and end buyers. We also offer brokerage
+            services, earning commissions on the wholesale and logistics
+            transactions we facilitate.
           </p>
         </div>
       </section>

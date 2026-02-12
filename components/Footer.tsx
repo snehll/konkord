@@ -65,6 +65,13 @@ export default function Footer() {
                  User Agreement
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/cookie-policy"
+                  className="text-gray-400 hover:text-red-400">
+                  Cookie Policy
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
